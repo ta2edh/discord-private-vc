@@ -1,6 +1,6 @@
 const Discord = require('discord.js');
 const bot = new Discord.Client();
-const { KANAL, KATEGORI, LOG, GUILD, PREFIX } = require("./settings.json")
+const { KANAL, KATEGORI, LOG, GUILD, PREFIX, TOKEN } = require("./settings.json")
 const { MessageEmbed } = require("discord.js");
 
 const low = require('lowdb')
@@ -61,4 +61,4 @@ bot.on("message", (msg) => {
     }
     
 })
-bot.login("NzQ2MjgwMjAxNDYxMTcwMjI3.Xz-BmQ.rse0fos4faqxg3lC_oh1kDXPFfs")
+bot.login(TOKEN)

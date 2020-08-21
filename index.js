@@ -39,8 +39,6 @@ bot.on("voiceStateUpdate", async (oldState, newState) => {
         var kanalad = bot.guilds.cache.get(`${GUILD}`).members.cache.get(`${newState.member.id}`).nickname || bot.guilds.cache.get(`${GUILD}`).members.cache.get(`${newState.member.id}`).displayName
         var kanal = await newState.guild.channels.create(`${kanalad}`, {type : "voice", parent : `${KATEGORI}`, userLimit : 1})
         newState.member.voice.setChannel(kanal)
-        // db.set(`${newState.member.id}`,`${kanal.id}`)
-        // db.set(`${kanal.id}`, `${newState.member.id}`)
     }
 })
 

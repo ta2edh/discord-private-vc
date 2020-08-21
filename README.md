@@ -5,6 +5,6 @@ Kurulum;
 - Gerekli modülleri indirin, (lowdb, discord.js)
 - settings.json dosyasını doğru bir şekilde doldurun!
 
-Shitcode icerir ozur dilerim 
-
 ![](tuto.gif)
+
+# This project is licensed under the terms of the GNU license.

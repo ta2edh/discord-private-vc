@@ -5,3 +5,5 @@ Kurulum;
 - settings.json dosyasını doğru bir şekilde doldurun!
 
 Shitcode icerir ozur dilerim 
+
+![](tuto.gif)

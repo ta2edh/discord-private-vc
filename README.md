@@ -1,4 +1,5 @@
 # Discord Private VC 
+# https://glitch.com/~discord-private-vc
 Kurulum;
 - Sisteminizde node.js kurulu olmalıdır.
 - Gerekli modülleri indirin, (lowdb, discord.js)

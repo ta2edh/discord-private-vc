@@ -23,7 +23,6 @@ bot.on("voiceStateUpdate", (oldState, newState) => {
 })
 bot.on("voiceStateUpdate", async (oldState, newState) => {
     if(typeof newState.channel == null || newState.channel == null) return;
-    // if (newState.channel.id == `${KANAL}`){client.channels.cache.get(`${LOG}`).send("Kullanıcı başka bir kanala bağlandı!")}else{client.channels.cache.get(`${LOG}`).send("Kullanıcı doğru kanalda aga.")}
 
     if (newState.channel.id == `${KANAL}`){
         newState.guild.channels.cache.forEach(ch => {

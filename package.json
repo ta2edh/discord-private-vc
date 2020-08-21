@@ -4,7 +4,7 @@
   "description": "Kişi kanala bağlandığında kişiye özel kanal oluşturan sistem.",
   "main": "index.js",
   "scripts": {
-    "test": "node index.js"
+    "start": "node index.js"
   },
   "dependencies": {
     "discord.js": "^12.3.1",

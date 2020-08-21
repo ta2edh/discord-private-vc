@@ -1,8 +1,8 @@
 {
-  "KANAL": "746360675135258764",
-  "KATEGORI": "746287006161698907",
-  "LOG": "746287196331573321",
-  "GUILD": "746284163698786324",
-  "PREFIX": "!",
-  "TOKEN": ""
+  "KANAL": "Kullanıcıların Giriş Yapacağı Kanal",
+  "KATEGORI": "Sesli kanalların kategorisi",
+  "LOG": "Log kanalı",
+  "GUILD": "Sunucunuzun ID'si",
+  "PREFIX": "Prefix",
+  "TOKEN": "Botunuzun Tokeni"
  }

@@ -1,8 +1,8 @@
 {
-  "KANAL": "Kullanıcıların Giriş Yapacağı Kanal",
-  "KATEGORI": "Sesli kanalların kategorisi",
-  "LOG": "Log kanalı",
-  "GUILD": "Sunucunuzun ID'si",
+  "KANAL": "channel id for users to log in",
+  "KATEGORI": "Category id for voice channels",
+  "LOG": "text log channel id",
+  "GUILD": "server id",
   "PREFIX": "Prefix",
-  "TOKEN": "Botunuzun Tokeni"
+  "TOKEN": "bot token"
  }
